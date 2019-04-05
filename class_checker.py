@@ -29,7 +29,7 @@ while True:
     print('course: ', course)
 
     for i in range(len(status)):
-        if status[i] == 'Closed':
+        if status[i] == 'Open':
             if course[i][:course[i].find('.')] == sys.argv[1]:
                 notify.send('available')
     time.sleep(300)
