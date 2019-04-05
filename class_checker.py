@@ -6,9 +6,6 @@ import time
 
 notify = Notify()
 
-test = open("test.txt", "w")
-test.write("im working")
-
 print(sys.argv[1])
 
 while True:
